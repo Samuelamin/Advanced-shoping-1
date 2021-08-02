@@ -1,0 +1,313 @@
+@media only screen and (max-width: 600px) {
+     header .title{margin-left: -33px; } 
+     #nab-bar{display: none; background-color: rgb(193, 193, 193);}
+     hr{display: none;}
+     #navp{display: block;}
+    }
+@media only screen and (min-width: 600px) {
+    #navp{display: none;}
+}
+
+@media only screen and (min-width: 1200px) {
+    #navp{display: none;}
+    
+}                     
+                       
+                                                                              /*navbar...... header*/
+
+
+ header{
+    height: 175px;
+    position: relative;
+ }            
+
+header .search{
+    width: 280px;
+    position: relative;
+    top: 20px;
+left: 32px;   
+}
+header .title{
+        border: 2px solid #444;
+        width: 190px;
+        position: relative;
+        left: 42%;
+        top: 45px;
+
+}
+header .title h1{
+    color: rgb(66, 66, 66);
+    z-index: 1;
+    font-size: 25px;
+    text-align: center;
+   
+}
+    header hr{
+    margin-top: 70px;
+    width: 100%;
+    }
+    .open-nav{
+        position: relative;
+        font-size: 25px;
+        top: -42px;
+        left: 12px;
+        cursor: pointer;
+        color: #424242;
+        display: none;
+        border: 2px solid #969696;
+        width: 40px;
+        height: 30px;
+        padding: 0px 0px 36px 7px;
+      
+
+    }
+  
+   
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      /*section-1*/
+   
+.section-1  {
+    background-color: rgb(118, 216, 255);
+    
+    margin-top: 15px;
+    }
+    .section-1 .row{
+        padding: 100px 20px;
+    }
+
+    .section-1 h3{
+        font-family: inherit;
+        font-size: 33px;
+        margin-top: 75px;
+        font-weight: bold;
+    }
+    .section-1 h5{
+    font-family: inherit;
+    font-weight: 400;
+    color: #656565;
+    font-size: 16px;
+  width: 75%;
+    }
+    .section-1 .part-2 .buy-1 {
+        position: relative;
+        top: 15px;
+        right: 0;
+        width: 133px;
+        height: 43px;
+        font-family: revert;
+        color: white;
+        background-color: #794bb1;
+        font-size: 16px;
+        border: 0px solid;
+        transition: all 0.7s ease;
+        border-radius: 5px;
+    }
+    .section-1 .part-2 .buy-1:hover{
+        background-color: #4c0e97;
+        color: white;
+        top: 10px;
+    
+    }
+
+                                                           /*section-2*/
+   
+
+   .section-2  .icon {
+    font-weight: 900;
+    font-size: 50px;
+    color: #9d00ff;
+}
+.section-2 .box{
+    display: flex;
+    padding: 40px 0px 30px 30px;
+}
+.section-2 .box .text{
+    padding: 0px 0px 0px 15px;
+}
+
+                                                       /*section-3*/
+
+.section-3{
+    padding: 50px 0px 70px 0px;
+       }
+                                           
+   .section-3 img{
+      width: 100%;
+       transition: all 0.6s ease;
+      
+       }
+   .section-3 img:hover{
+       transform: scale(1.1);
+
+       }
+       
+   .section-3 h3{
+       z-index: 2;
+       color: rgb(0, 0, 0);
+       } 
+   
+   .section-3 h4{
+       z-index: 2;
+       color: black;
+       font-size: 36px;
+       text-align: center;
+       }
+   
+       .section-3 .img-zoom{
+           overflow: hidden;
+       }
+       .section-3 .text{
+        bottom: 18%;
+        left: 10%;
+        padding: 0px 0px 28px 0px;
+        position: relative;
+    
+       }
+   .section-3 h6{
+       position: absolute;
+       z-index: 2;
+       color: rgb(0, 0, 0);
+       } 
+       .section-3 .box{
+           margin-bottom: 15px;
+       }
+
+                                                      /*section-4*/
+ 
+.section-4{
+    background-color: #f6f6f6;
+    padding: 0px 0px 15px 0px;
+}
+
+.section-4  .card p{
+    color: blueviolet;
+    text-align: center;
+    font-size: 19px;
+   
+}
+.section-4 .card h6{
+    text-align: center;
+    font-size: 14px;
+    color: #4444449c;
+}
+.section-4  .prise{
+    color: blueviolet;
+    text-align: center;
+    font-size: 15px;
+}
+.section-4 h2{
+    text-align: center;
+    font-size: 22px;
+}
+.section-4 .card{
+    width: 16.5rem;
+  
+    margin-bottom: 20px;
+    }
+    .section-4 h2{
+        font-family: monospace;
+        font-size: 35px;
+      
+    }
+
+                                                    /*section-5*/
+
+
+    
+    .section-5  h5{
+        text-align: center;
+        padding: 28px 0px 28px 0px;
+        font-size: 33px;
+        font-family: -webkit-pictograph;
+    }                                 
+    .section-5  img{
+       width: 100%;
+    }
+    .section-5  h2{
+    font-size: 28px;
+    color: blueviolet;
+    padding: 0px 0px 41px 0px;
+    }
+    .section-5  p{
+        width: 75%;
+        font-size: 15px;
+        color: #444444b5;
+        padding: 0px 0px 30px 0px;
+    }
+    .section-5 .buy{
+    width: 133px;
+    height: 43px;
+    font-family: revert;
+    color: white;
+    background-color: #794bb1;
+    font-size: 16px;
+    border: 0px solid;
+    transition: all 0.7s ease;
+    border-radius: 5px;
+   
+    }
+    .section-5 .buy:hover{
+       background-color: #4c0e97;
+       color: white;
+       margin-top: 5px;
+     
+       
+    }
+    .section-5  hr{
+        width: 100%;
+    }
+
+                                                             /*footer*/
+
+
+
+ footer .LINK a{
+    text-decoration: none;
+    font-family: revert;
+    transition: all 0.7s ease;
+ }
+
+ footer .LINK  a:hover{
+color: red;
+ }
+
+footer .part-1 li{
+width: 155px;
+padding: 0px 0px 16px 0px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+}
+
+footer h6{
+    padding:  15px 0px 23px 0px;
+    font-size: 20px;
+}
+
+footer .part-2 a{
+    font-size: 20px;
+    font-family: monospace;
+    color: #b400ff;
+    text-decoration: none;
+
+}
+footer .part-3 p{
+    color: #0038ff;
+    font-size: 18px;
+ }
+
+ footer .part-3 li{
+     display: flex;
+ }
+ footer .f-icon{
+    font-size: 23px;
+    color: #9d00ff;
+    position: relative;
+    right: 178px;
+  
+ }
